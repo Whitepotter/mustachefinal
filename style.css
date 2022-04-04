@@ -1,0 +1,33 @@
+h2{
+    font-size: 25px !important;
+    width:100%;
+}
+
+.btn-success:hover{
+    background-color: turquoise;
+}
+
+body{
+    background-size: cover;
+}
+
+.buttons{
+    background-color: #79B4B7;
+}
+
+canvas{
+    animation-duration: 5s;
+    animation-name: colour;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colour{
+    from{box-shadow: 5px 5px 50px green;}
+    to{box-shadow: 5px 5px 50px blue;}
+}
+
+img{
+    width: 50px;
+    margin-bottom: 0px;
+    float:right;
+}
